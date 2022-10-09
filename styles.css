@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left, .right{
+    flex: 1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(blue,rgb(0, 195, 255));
+}
+
+h1{
+    margin: 20px;
+}
+
+.right h1{
+    text-align: right;
+}
+
+.right{
+    background: linear-gradient(orange,yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
